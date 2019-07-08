@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.0.0-beta.6)
+  - BetterSegmentedControl (1.2.1)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - ObjectMapper (3.5.1)
+  - ProgressHUD (2.60)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-beta.5)
+  - BetterSegmentedControl (~> 1.0)
+  - GoogleMaps
+  - ObjectMapper (~> 3.4)
+  - ProgressHUD
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BetterSegmentedControl
+    - GoogleMaps
+    - ObjectMapper
+    - ProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: cd08a4402bd12cacd0c66f23fb12fec8d6b965e4
+  BetterSegmentedControl: b27bddbdff29b6cae988678d6cd106858986cd03
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 515cee701d7bb1cf5febd0c39f415a9040319d3a
+
+COCOAPODS: 1.5.2

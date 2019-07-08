@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19E33C93A89F7127E4E2D72B /* Pods_NOON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C870D0AF4CD20A322914DB67 /* Pods_NOON.framework */; };
+		BA03779A22D335120089F05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA03779922D335120089F05B /* Main.storyboard */; };
+		BA28E7B322D32C8900C4B13E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28E7B222D32C8800C4B13E /* Request.swift */; };
+		BA2A174022B0E69D00850F1E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2A173F22B0E69D00850F1E /* Login.storyboard */; };
+		BA2A174322B0FACD00850F1E /* adsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A174122B0FACD00850F1E /* adsCell.swift */; };
+		BA2A174422B0FACD00850F1E /* adsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2A174222B0FACD00850F1E /* adsCell.xib */; };
+		BA2A174822B1325800850F1E /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A174722B1325800850F1E /* Util.swift */; };
+		BA3BA8FC22CDFFD900133EBE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3BA8FB22CDFFD900133EBE /* MapViewController.swift */; };
+		BA3BA8FE22CE000200133EBE /* MapViewStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3BA8FD22CE000200133EBE /* MapViewStory.storyboard */; };
+		BA653FFD22CB6ED900D00046 /* Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = BA653FFC22CB6ED900D00046 /* Locations.json */; };
 		BA8518BF22B0223E003C1C94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8518BE22B0223E003C1C94 /* AppDelegate.swift */; };
 		BA8518C122B0223E003C1C94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8518C022B0223E003C1C94 /* ViewController.swift */; };
-		BA8518C422B0223E003C1C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8518C222B0223E003C1C94 /* Main.storyboard */; };
 		BA8518C622B02243003C1C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8518C522B02243003C1C94 /* Assets.xcassets */; };
 		BA8518C922B02243003C1C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8518C722B02243003C1C94 /* LaunchScreen.storyboard */; };
+		BACE554E22B78E4B000EC5F2 /* checkout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACE554D22B78E4B000EC5F2 /* checkout.storyboard */; };
+		BAE5BEDF22CA3D770082674D /* makan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE5BEDE22CA3D770082674D /* makan.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4030AD6DAC718DA3BFE3C6D9 /* Pods-NOON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOON.release.xcconfig"; path = "Pods/Target Support Files/Pods-NOON/Pods-NOON.release.xcconfig"; sourceTree = "<group>"; };
+		8F5D58A688B974D1A74252A1 /* Pods-NOON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOON.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NOON/Pods-NOON.debug.xcconfig"; sourceTree = "<group>"; };
+		BA03779922D335120089F05B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BA28E7B222D32C8800C4B13E /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BA2A173F22B0E69D00850F1E /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Login.storyboard; path = ../Login.storyboard; sourceTree = "<group>"; };
+		BA2A174122B0FACD00850F1E /* adsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adsCell.swift; sourceTree = "<group>"; };
+		BA2A174222B0FACD00850F1E /* adsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = adsCell.xib; sourceTree = "<group>"; };
+		BA2A174722B1325800850F1E /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		BA3BA8FB22CDFFD900133EBE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BA3BA8FD22CE000200133EBE /* MapViewStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapViewStory.storyboard; sourceTree = "<group>"; };
+		BA653FFC22CB6ED900D00046 /* Locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Locations.json; sourceTree = "<group>"; };
 		BA8518BB22B0223E003C1C94 /* NOON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8518BE22B0223E003C1C94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA8518C022B0223E003C1C94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA8518C322B0223E003C1C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA8518C522B02243003C1C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA8518C822B02243003C1C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA8518CA22B02243003C1C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BACE554D22B78E4B000EC5F2 /* checkout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = checkout.storyboard; sourceTree = "<group>"; };
+		BAE5BEDE22CA3D770082674D /* makan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = makan.storyboard; sourceTree = "<group>"; };
+		C870D0AF4CD20A322914DB67 /* Pods_NOON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E33C93A89F7127E4E2D72B /* Pods_NOON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6596FB825E79D903A0BC0176 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F5D58A688B974D1A74252A1 /* Pods-NOON.debug.xcconfig */,
+				4030AD6DAC718DA3BFE3C6D9 /* Pods-NOON.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		999D8432AF6D6E6081F9B32A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C870D0AF4CD20A322914DB67 /* Pods_NOON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA28E7B722D3304900C4B13E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA2A173F22B0E69D00850F1E /* Login.storyboard */,
+				BA8518C022B0223E003C1C94 /* ViewController.swift */,
+				BA03779922D335120089F05B /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BA2A174622B1320500850F1E /* util */ = {
+			isa = PBXGroup;
+			children = (
+				BA2A174722B1325800850F1E /* Util.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		BA653FF922CB6E7400D00046 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BA653FFC22CB6ED900D00046 /* Locations.json */,
+				BA28E7B222D32C8800C4B13E /* Request.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		BA8518B222B0223E003C1C94 = {
 			isa = PBXGroup;
 			children = (
 				BA8518BD22B0223E003C1C94 /* NOON */,
 				BA8518BC22B0223E003C1C94 /* Products */,
+				6596FB825E79D903A0BC0176 /* Pods */,
+				999D8432AF6D6E6081F9B32A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +125,45 @@
 		BA8518BD22B0223E003C1C94 /* NOON */ = {
 			isa = PBXGroup;
 			children = (
+				BA653FF922CB6E7400D00046 /* API */,
+				BA2A174622B1320500850F1E /* util */,
+				BA8518D422B030FB003C1C94 /* Model */,
+				BA8518D022B0225A003C1C94 /* Storyboards */,
+				BA8518D122B0228D003C1C94 /* viewcontroller */,
 				BA8518BE22B0223E003C1C94 /* AppDelegate.swift */,
-				BA8518C022B0223E003C1C94 /* ViewController.swift */,
-				BA8518C222B0223E003C1C94 /* Main.storyboard */,
 				BA8518C522B02243003C1C94 /* Assets.xcassets */,
-				BA8518C722B02243003C1C94 /* LaunchScreen.storyboard */,
 				BA8518CA22B02243003C1C94 /* Info.plist */,
 			);
 			path = NOON;
+			sourceTree = "<group>";
+		};
+		BA8518D022B0225A003C1C94 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BA28E7B722D3304900C4B13E /* Main */,
+				BA8518C722B02243003C1C94 /* LaunchScreen.storyboard */,
+				BACE554D22B78E4B000EC5F2 /* checkout.storyboard */,
+				BA2A174122B0FACD00850F1E /* adsCell.swift */,
+				BA2A174222B0FACD00850F1E /* adsCell.xib */,
+				BAE5BEDE22CA3D770082674D /* makan.storyboard */,
+				BA3BA8FB22CDFFD900133EBE /* MapViewController.swift */,
+				BA3BA8FD22CE000200133EBE /* MapViewStory.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BA8518D122B0228D003C1C94 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		BA8518D422B030FB003C1C94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA8518CD22B02243003C1C94 /* Build configuration list for PBXNativeTarget "NOON" */;
 			buildPhases = (
+				E16090DC58C981B3FF1F5A66 /* [CP] Check Pods Manifest.lock */,
 				BA8518B722B0223E003C1C94 /* Sources */,
 				BA8518B822B0223E003C1C94 /* Frameworks */,
 				BA8518B922B0223E003C1C94 /* Resources */,
+				B40B2C59DD90811DD99D80F8 /* [CP] Embed Pods Frameworks */,
+				E29C0751A17DB7CD397CF002 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,13 +227,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BACE554E22B78E4B000EC5F2 /* checkout.storyboard in Resources */,
 				BA8518C922B02243003C1C94 /* LaunchScreen.storyboard in Resources */,
+				BA653FFD22CB6ED900D00046 /* Locations.json in Resources */,
+				BA3BA8FE22CE000200133EBE /* MapViewStory.storyboard in Resources */,
 				BA8518C622B02243003C1C94 /* Assets.xcassets in Resources */,
-				BA8518C422B0223E003C1C94 /* Main.storyboard in Resources */,
+				BA2A174422B0FACD00850F1E /* adsCell.xib in Resources */,
+				BA03779A22D335120089F05B /* Main.storyboard in Resources */,
+				BAE5BEDF22CA3D770082674D /* makan.storyboard in Resources */,
+				BA2A174022B0E69D00850F1E /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B40B2C59DD90811DD99D80F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NOON/Pods-NOON-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NOON/Pods-NOON-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E16090DC58C981B3FF1F5A66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NOON-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29C0751A17DB7CD397CF002 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NOON/Pods-NOON-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NOON/Pods-NOON-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA8518B722B0223E003C1C94 /* Sources */ = {
@@ -136,21 +312,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8518C122B0223E003C1C94 /* ViewController.swift in Sources */,
+				BA28E7B322D32C8900C4B13E /* Request.swift in Sources */,
 				BA8518BF22B0223E003C1C94 /* AppDelegate.swift in Sources */,
+				BA2A174322B0FACD00850F1E /* adsCell.swift in Sources */,
+				BA3BA8FC22CDFFD900133EBE /* MapViewController.swift in Sources */,
+				BA2A174822B1325800850F1E /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BA8518C222B0223E003C1C94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA8518C322B0223E003C1C94 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA8518C722B02243003C1C94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,9 +452,11 @@
 		};
 		BA8518CE22B02243003C1C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5D58A688B974D1A74252A1 /* Pods-NOON.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72P726XB5S;
 				INFOPLIST_FILE = NOON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +471,11 @@
 		};
 		BA8518CF22B02243003C1C94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4030AD6DAC718DA3BFE3C6D9 /* Pods-NOON.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72P726XB5S;
 				INFOPLIST_FILE = NOON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
